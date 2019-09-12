@@ -2,7 +2,7 @@
   width: 60px;
   height: 60px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 .items{
@@ -21,6 +21,7 @@
 }
 body {
   margin: 0 !important;
+  font-family: 'Manjari', sans-serif;
 }
 .navbar{
   display:flex;
@@ -34,4 +35,20 @@ a {
 }
 a:hover {
    color: #00F
+}
+.about-img{
+  height: 342px;
+  width: 540px;
+}
+
+
+.about-main{
+  display: flex;
+  background-color: #d9eeec;
+}
+.col-lg-6{
+  margin: 25px;
+  padding: 10px;
+  box-shadow: 6px 6px 6px 6px rgba(153,153,153,0.5);
+  border-radius:9px;
 }
