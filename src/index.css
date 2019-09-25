@@ -1,6 +1,6 @@
 .App-logo{
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   margin: 10px;
   border-radius: 50%;
 }
@@ -25,16 +25,16 @@ body {
 }
 .navbar{
   display:flex;
-    background:#59c4ca;
+    background:#60d9af;
 position: relative;
 align-items: center;
 
 }
-a {
+/* a {
   color: #FFF;
-}
+} */
 a:hover {
-   color: #00F
+   color: #FFF
 }
 .about-img{
   height: 342px;
@@ -44,11 +44,96 @@ a:hover {
 
 .about-main{
   display: flex;
-  background-color: #d9eeec;
+  background-color: #60d9af;
 }
-.col-lg-6{
+.col-lg-6 {
   margin: 25px;
   padding: 10px;
   box-shadow: 6px 6px 6px 6px rgba(153,153,153,0.5);
   border-radius:9px;
+}
+.social-links{
+  /* float:left; */
+  /* padding: 20px; */
+  padding-left: 250px;
+  margin:20px;
+}
+.skills-list{
+
+  font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #212529; */
+    text-align: left;
+}
+.tweets{
+  background-color:  #d9eeec;
+  padding-left: 450px;
+  /* float: right; */
+  /* margin: 20px; */
+}
+
+
+.medium-images{
+  width: 100%;
+  height: 240px;
+  /* border-radius: 12px; */
+}
+.blocks{
+  display: flex;
+  padding: 40px;
+
+}
+.blogs{
+  margin: 40px;
+  box-shadow: 6px 6px 6px 2px rgba(153,153,153,1.5);
+  border: 2px solid;
+  border-radius:4px;
+  height: 370px;
+  width: 350px;
+  /* background-color: #dfeaeafc; */
+  padding: 4px;
+
+}
+
+ol li {
+  list-style-type: none;
+
+}
+.list-medium{
+  background-color:#dbe0d6;
+  margin: 0px;
+  text-align: center;
+}
+.Header{
+  text-align: center;
+}
+.blog{
+  color: #13cc1c;
+}
+.footer{
+  /* margin-left:  1200px; */
+  background-color: black;
+  color: white;
+  /* width: 100%; */
+  padding: 20px;
+  display: flex;
+align-content: center;
+
+}
+.footer-child{
+  margin-left: 900px;
+  width: 40%;
+}
+.footer-text{
+  /* padding: 42px; */
+  /* margin-left: 30px; */
+  display: flex;
+  /* width: 100%; */
+  text-align: center;
+  width:30%;
+}
+.footer-logo{
+  width: 30%;
+  /* margin-left: 10px; */
 }
